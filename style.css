@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(175, 175, 174);
+}
+
+.container {
+    width: 60rem;
+    height: 20rem;
+    border: 0.5rem solid rgb(253, 252, 252);
+    border-radius: 1rem;
+    background-color: rgb(79, 78, 80);
+    position: absolute;
+    top: 25rem;
+    left: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container > .score {
+    width: 17rem;
+    height: 17rem;
+    border: 0.2rem solid rgb(54, 32, 47);
+    border-radius: 20%;
+    background-color: rgb(252, 250, 247);
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 7rem;
+}
+
+.btn {
+    width: 10rem;
+    height: 10rem;
+    border: 0.5rem solid grey;
+    border-radius: 1rem;
+    font-size: 5rem;
+}
